@@ -874,7 +874,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fadein { position:relative; width:100%;}
-.fadein img { position:absolute; height:940px; width:1920px; left:0; right:0; opacity:0; animation-name: fade; animation-duration: 12s; animation-iteration-count: infinite; }
+.fadein img { position:absolute; width:100%; left:0; right:0; opacity:0; animation-name: fade; animation-duration: 12s; animation-iteration-count: infinite; }
 .fadein img:nth-child(1) { animation-delay: 0s; }
 .fadein img:nth-child(2) { animation-delay: 2s; }
 .fadein img:nth-child(3) { animation-delay: 4s; }
